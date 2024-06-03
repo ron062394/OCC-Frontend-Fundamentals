@@ -9,6 +9,7 @@
       html {
         font-size: 16px;
       }
+
       body {
         background-color: #e3d9c1;
       }
