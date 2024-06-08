@@ -141,10 +141,7 @@
 
       <div>
         <h2 class="font-family-size">Contact Us</h2>
-        <p class="font-family-size">
-          For inquiries, collaborations, or just to say hello, drop us a message
-          at <a href="mailto:info@codecrafters.com">info@codecrafters.com</a>.
-        </p>
+        <p class="font-family-size">For inquiries, collaborations, or just to say hello, drop us a message at <span class="email">info@codecrafters.com</span>.</p>
         <div class="social-media-links">
           <a href="#" class="social-link"
             ><img
