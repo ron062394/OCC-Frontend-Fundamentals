@@ -37,7 +37,7 @@
     </ul>
 
     <h2>CSS Unit of Measurement</h2>
-    <ul style="font-size: 18;">
+    <ul style="font-size: 18px;">
         <li class="absolute-unit">Absolute Unit (px)</li>
         <li class="relative-unit-em">Relative Unit (em)</li>
         <li class="relative-unit-rem">Relative Unit (rem)</li>
