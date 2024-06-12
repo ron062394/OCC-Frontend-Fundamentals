@@ -11,14 +11,6 @@
   <body>
     <div class="header">
       <h1>Welcome to CodeCrafters</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
     </div>
 
     <div class="main">
