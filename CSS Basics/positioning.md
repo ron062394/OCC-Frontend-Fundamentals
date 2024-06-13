@@ -7,7 +7,7 @@
     <title>CSS Positioning</title>
     <link rel="stylesheet" href="./positioning.css" />
     <style>
-      /* Ancestor Element */
+      /* Internal Styles */
       .ancestor {
         position: relative;
         border: 2px solid #000;
