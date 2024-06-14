@@ -20,7 +20,6 @@
         border-radius: 12px;
         background-color: #f1faee;
         text-align: center;
-        justify-content: center;
         font-size: 40px;
       }
 
