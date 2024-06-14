@@ -36,7 +36,7 @@
         <li class="rgb">RGB/RGBA Values</li>
     </ul>
 
-    <h2>CSS Unit of Measurement</h2>
+    <h2>CSS Units of Measurement</h2>
     <ul style="font-size: 18px;">
         <li class="absolute-unit">Absolute Unit (px)</li>
         <li class="relative-unit-em">Relative Unit (em)</li>
