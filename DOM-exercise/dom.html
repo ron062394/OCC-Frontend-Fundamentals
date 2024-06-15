@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picture Frames</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(26, 76, 78);
+            margin: 0;
+            flex-wrap: wrap;
+        }
+
+        .first-row {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .frame {
+            border: 10px solid #8b4513;
+            padding: 10px;
+            background-color: #fff8dc;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+            margin: 10px;
+            text-align: center;
+        }
+
+        .frame2 {
+            border-color: rgb(64, 23, 2);
+        }
+
+        .frame3 {
+            border: none;
+            background-color: #fff8dc;
+        }
+
+        .frame4 {
+            border: 8px groove gray;
+            border-radius: 10px;
+            background-color: #fff5ee;
+        }
+
+        .frame5 {
+            border: 12px ridge #8b4513;
+            background-color: #f0f8ff;
+            padding: 8px;
+        }
+
+        .frame img {
+            display: block;
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .frame5 img {
+            width: 300px;
+        }
+
+
+        .tag {
+            margin-top: 10px;
+            font-size: 14px;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <div class="first-row">
+        <div class="frame frame1">
+            <img src="https://i.ibb.co/CtFFFRN/mona-lisa.jpg">
+            <div class="tag">[Place Painting Tag Here]</div>
+        </div>
+        <div class="frame frame2">
+            <img src="https://i.ibb.co/rdgyvyj/girl-with-pearl-earring.jpg">
+            <div class="tag">Girl with a Pearl Earring, Johannes Vermeer</div>
+        </div>
+        <div class="frame frame3">
+            <img src="https://i.ibb.co/6DrDVWM/17053357-the-milkmaid-renaissance-painting.jpg">
+            <div class="tag">The Milkmaid, [Unknown Artist]</div>
+        </div>
+        <div class="frame frame4">
+            <img src="https://i.ibb.co/PNSKwYf/lady-with-an-ermine.jpg">
+            <div class="tag">Lady with an Ermine, Leonardo da Vinci</div>
+        </div>
+    </div>
+
+    <div class="frame frame5">
+        <img src="https://i.ibb.co/mCN793J/elementor-placeholder-image.jpg">
+        <div class="tag">The Starry Night, Vincent van Gogh</div>
+    </div>
+
+    <script src="DOM-exercise.js"></script>
+
+</body>
+</html>
