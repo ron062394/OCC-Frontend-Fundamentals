@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Manipulation</title>
     <style>
-      h3 {
-        margin-bottom: 0px;
-      }
-
-      #style {
+      #page-container {
         width: 200px;
         height: 100px;
         border: 1px rgb(126, 126, 126) solid;
@@ -53,32 +49,10 @@
     </div>
 
     <div>
-      <h3>Adding Event Listener</h3>
-      <div>
-        <div id="button-div">Click the button below!</div>
-        <button id="button">Click me!</button>
-      </div>
-    </div>
-
-    <div>
-      <h3>Appending New Elements</h3>
-      <div>
-        <div id="append">Existing content</div>
-      </div>
-    </div>
-
-    <div>
-      <h3>Removing Elements</h3>
-      <div id="remove">
-        <div>Element to be removed</div>
-      </div>
-    </div>
-
-    <div>
       <h3>Updating Element Attributes</h3>
       <div>
         <img
-          id="image"
+          id="day-night-icon"
           style="height: 50px"
           src="https://cdn-icons-png.flaticon.com/512/624/624106.png"
           alt="Original Image"
@@ -87,9 +61,22 @@
     </div>
 
     <div>
-      <h3>Manipulating Element Styles</h3>
-      <div id="style">
-        <div id="mode">Light Mode</div>
+      <h3>Appending New Elements</h3>
+      <div id="parent-element">Parent Element</div>
+    </div>
+
+    <div>
+      <h3>Removing Elements</h3>
+      <div id="element-to-be-removed">Remove this element</div>
+    </div>
+
+    <div>
+      <h3>Adding Event Listeners and Manipulating Element Styles</h3>
+      <div>
+        <button id="dark-mode-btn">Dark Mode</button>
+      </div>
+      <div id="page-container">
+        <div id="page-mode-text">Light Mode</div>
         <div>Welcome to my profile</div>
       </div>
     </div>
